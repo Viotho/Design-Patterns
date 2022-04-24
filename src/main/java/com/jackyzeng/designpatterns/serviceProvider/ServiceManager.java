@@ -18,7 +18,7 @@ public class ServiceManager {
     public static CustomService getService(String serviceName) {
         ServiceProvider serviceProvider = providers.get(serviceName);
         if (Objects.isNull(serviceProvider)) {
-            throw new IllegalArgumentException("no provider regietered with name = " + serviceName);
+            throw new IllegalArgumentException("no provider registered with name = " + serviceName);
         }
         return serviceProvider.getCustomService();
     }
