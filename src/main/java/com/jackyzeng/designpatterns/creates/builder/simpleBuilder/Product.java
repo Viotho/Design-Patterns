@@ -1,4 +1,4 @@
-package com.jackyzeng.designpatterns.creates.builder;
+package com.jackyzeng.designpatterns.creates.builder.simpleBuilder;
 
 public class Product {
     private final int field1;
