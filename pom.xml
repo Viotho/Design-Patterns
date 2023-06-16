@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jackyzeng</groupId>
-    <artifactId>designpatterns</artifactId>
+    <artifactId>Design-Patterns</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>designpatterns</name>
+    <name>Design-Patterns</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -68,7 +68,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.jackyzeng.designpatterns.DesignpatternsApplication</mainClass>
+                    <mainClass>com.jackyzeng.designpatterns.DesignPatternsApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
